@@ -1,0 +1,267 @@
+.contacting
+{   
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+
+.contact .content
+{
+
+text-align: center;
+
+
+}
+
+img
+{
+  
+    width: 100vw; 
+    height: 90vh;
+  
+}
+
+.contact .content h2
+{
+    font-size: 42px;
+    font-weight: 900;
+    color: #222;
+}
+
+.contact .content p
+{   font-size: 1.2rem;
+    font-weight: 50;
+    color: #222;
+    width: 95%;
+    margin-left: 35px;
+
+}
+
+.container
+{
+    width:  100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: -80px;
+}
+
+.container .contactInfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactInfo .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contactInfo .box .icon
+{
+    min-width: 60px;
+    height: 60px;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .contactInfo .box text
+{
+display: flex;
+margin-left: 20px;
+font-size: 2px;
+color: #222;
+flex-direction: column;
+font-weight: 300;
+}
+
+.container .contactInfo .box .text h3
+{
+    font-weight: 500;
+   
+}
+
+.container .contactInfo p
+{
+    min-width: 60px;
+    height: 60px;
+    font-size: 22px;
+    margin-left: 110px;
+    margin-top: 33px;
+}
+
+@media screen and  (max-width : 1050px) 
+{
+
+    img
+{
+  
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh;
+  
+}
+
+  
+    .contact .content h2
+    {
+        font-size: 36px;
+        font-weight: 900;
+        color: #000;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .contact .content p
+    {   font-size: 1.3rem;
+        font-weight: 300;
+        color: #000;
+        margin-top: 25px;
+        margin-left: 5px;
+        
+            
+    }
+
+    .container .contactInfo
+{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+    
+    .container .contactInfo p
+    {
+        min-width: 60px;
+        height: 60px;
+        font-size: 22px;
+        margin-left: 110px;
+        margin-top: 33px;
+    }
+
+}
+
+@media screen and  (max-width : 600px) 
+{
+    .mail
+    {
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and  (max-width : 500px) 
+{
+    .mail
+    {
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+}
+
+@media screen and  (max-width : 450px) 
+{
+  
+    .contact .content h2
+    {
+        font-size: 36px;
+        font-weight: 900;
+        color: #000;
+        align-items: center;
+    }
+    
+    .contact .content p
+    {   font-size: 1.3rem;
+        font-weight: 300;
+        color: #222;
+        margin-top: 30px;
+            
+    }
+
+    .container .contactInfo
+{
+    margin-left: 55px;
+    margin-top: 30px;
+}
+
+    
+    .container .contactInfo p
+    {
+       
+        height: 60px;
+        font-size: 16px;
+        margin-left: 90px;
+        margin-top: 36px;
+    }
+   
+
+    .mail
+    {
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+}
+
+@media screen and  (max-width : 400px) 
+{   
+    
+    .container .contactInfo
+{
+    margin-left: 55px;
+    margin-top: 30px;
+}
+
+    
+    .container .contactInfo p
+    {
+       
+        height: 60px;
+        font-size: 16px;
+        margin-left: 100px;
+        margin-top: 36px;
+    }
+   
+
+    .mail
+    {
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+}
+
+@media screen and  (max-width : 350px) 
+{   
+    
+    .container .contactInfo
+{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+    
+    .container .contactInfo p
+    {
+       
+        height: 60px;
+        font-size: 16px;
+        margin-left: 80px;
+        margin-top: 36px;
+    }
+   
+
+    .mail
+    {
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+}
+
