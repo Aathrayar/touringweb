@@ -14,10 +14,10 @@
       position: relative;
   }
   
-  img
+  video
   {
       width: 100vw; /* Full width of the viewport */
-      height: 100vh;
+      height: 50vw;
       object-fit:cover
   }
   

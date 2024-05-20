@@ -9,18 +9,15 @@ function Hero(props) {
 <img className="background-image" src={props.heroImg} alt="HeroImg" />
 
 
-
-
     <div className="hero-text">
 
     <h1><center>{props.title}</center></h1>
     <p><center>{props.text}</center></p>
 
     </div>
-
-    <a  href={props.url} className={props.btnclass}>
-    {props.buttontext}
-</a>
+                       
+    <button/>
+    
     </div>
   )
 }
