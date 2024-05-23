@@ -1,3 +1,4 @@
+import BgVideo from '../component/BgVideo';
 import Navbar from '../component/Navbar';
 
 import "./contact.css"
@@ -13,13 +14,13 @@ function Contact() {
 
     <Navbar/>
 
-
+    <BgVideo/>
 
 <div className='contend'>
 
 <section className='contact'>
 
-<img src= "https://img.freepik.com/free-photo/elephants-national-park-sri-lanka_167946-150.jpg?w=1060&t=st=1707229334~exp=1707229934~hmac=a960ac47cc05eefdf748426ff1573d790bd0936eea2528be3e9fd4691ce286be" alt="" />
+
 
 <div className='content'> 
 

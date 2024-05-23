@@ -164,6 +164,74 @@
 {
     color: #fff;
     margin-top: 86px; 
+    margin-left: 650px;
+    left: 0;
+    opacity: 1;
+    z-index: -1 
+    
+       
+}
+
+.menu-icons
+{
+    display: block;
+   
+}
+
+.menu-icons i
+{
+    font-size: 1.2rem;
+    color: #222;
+    cursor: pointer;
+}
+
+.nav-links
+{
+    position: relative;
+    text-decoration: none;
+    color:#fff;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+    top: -33px;
+    
+
+}
+
+}
+
+@media screen and (max-width: 920px)
+{
+    .NavbarItems
+    {
+        z-index: 99;
+    }
+
+    .nav-menu {
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background: rgba(6, 57, 112, 0.9); /* RGBA color with 0.9 opacity */
+        border-radius: 13px;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        opacity: 0;
+        align-items: stretch;
+        padding: 80px 0 30px 0;
+        margin: 0;
+        transition: 0.5s ease-in-out;
+      }
+      
+
+.nav-menu.active
+{
+    color: #fff;
+    margin-top: 86px; 
     margin-left: 450px;
     left: 0;
     opacity: 1;
