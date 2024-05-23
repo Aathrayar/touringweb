@@ -33,12 +33,12 @@ export default function AlertDialog() {
         </DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-           Thank You For Your Details, Our Team Will Contact You Soon.
+          This Scope is in under development, please Contact our Team for more details
           </DialogContentText>
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose} autoFocus>
-            Save
+            Close
           </Button>
         </DialogActions>
       </Dialog>
