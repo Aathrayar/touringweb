@@ -33,7 +33,7 @@ export default function AlertDialog() {
         </DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-          This Scope is in under development, please Contact our Team for more details
+          Sorry for the inconvenience! This Scope is in under development, please Contact our Team for more details
           </DialogContentText>
         </DialogContent>
         <DialogActions>
