@@ -1,5 +1,5 @@
 import React from "react";
-import video from '../assets/Video/y2mate.com - Photography Ad Video Template Editable_1080p.mp4'
+import video from '../assets/Video/Sri Lanka _ 4K Cinematic Travel Film.mp4'
 import './BgVideo.css'
 
 function BgVideo() {
